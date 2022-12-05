@@ -46,7 +46,7 @@ const IndexPage = () => {
               <ListItemIcon>
                 <NoteAddIcon />
               </ListItemIcon>
-              <ListItemText primary="新建备忘录" />
+              <ListItemText primary="新建核酸记录" />
             </ListItemButton>
           </ListItem>
           <Divider />
@@ -90,7 +90,7 @@ const IndexPage = () => {
                 <ListItemIcon>
                   <NoteAddIcon />
                 </ListItemIcon>
-                <ListItemText primary="新建备忘录" />
+                <ListItemText primary="新建核酸记录" />
               </ListItemButton>
             </ListItem>
             <Divider />

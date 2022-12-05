@@ -37,7 +37,7 @@ const MemoAppBar = () => {
           onClick={() => navigate("/")}
           sx={{ flexGrow: 1 }}
         >
-          Memo
+          核酸监测系统
         </Typography>
         {loading ? (
           <></>
@@ -75,6 +75,7 @@ const MemoAppBar = () => {
           open={Boolean(anchorEl)}
           onClose={handleClose}
         >
+          <MenuItem onClick={() => {navigate("/profile"); handleClose();}}>个人信息</MenuItem>
           <MenuItem onClick={handleLogout}>登出</MenuItem>
         </Menu>
       </Toolbar>

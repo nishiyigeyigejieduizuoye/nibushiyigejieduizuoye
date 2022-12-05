@@ -11,6 +11,7 @@ import { CssBaseline } from "@mui/material";
 import { Container } from "@mui/system";
 import CreateMemoPage from "./pages/CreateMemoPage";
 import EditMemoPage from "./pages/EditMemoPage";
+import ProfilePage from "./pages/ProfilePage";
 
 function App() {
   return (
@@ -44,6 +45,14 @@ function App() {
                 element={
                   <NeedLoginPage>
                     <EditMemoPage />
+                  </NeedLoginPage>
+                }
+              />
+              <Route
+                path="/profile"
+                element={
+                  <NeedLoginPage>
+                    <ProfilePage />
                   </NeedLoginPage>
                 }
               />
